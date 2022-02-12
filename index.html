@@ -10,7 +10,36 @@
 </head>
 
 <body>
-    <p class="text-7xl">Hello There welcome to our Bank</p>
+    <header class="bg-green-400">
+        <nav class="grid grid-cols-4 gap-4 w-10/12 mx-auto">
+            <h2 class="col-span-3 text-2xl text-gray">Basic Bank</h2>
+            <ul class="col-span-1 inline-flex gap-4 items-center">
+                <li class="bg-green-600 py-2 px-3 text-white"><a href="#">home1</a></li>
+                <li class="hover:bg-green-600 py-2 px-3 hover:text-white hover:ease-in-out hover:duration-300"><a
+                        href="#">home2</a></li>
+                <li class="hover:bg-green-600 py-2 px-3 hover:text-white hover:ease-in-out hover:duration-300"><a
+                        href="#">home3</a></li>
+                <li class="hover:bg-green-600 py-2 px-3 hover:text-white hover:ease-in-out hover:duration-300"><a
+                        href="#">home4</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="w-10/12 mx-auto">
+        <div class="bg-green-200 w-6/12 mx-auto rounded pb-8 drop-shadow-2xl">
+            <p class="text-3xl text-center mt-8 pt-8 pb-4">Welcome To Basic Bank</p>
+            <form class="mx-auto w-64" action="">
+                <h3>Please Login to Start Banking</h3>
+                <input id="email-input" class="block border rounded mt-4 text-sm w-52 py-1 pl-1"
+                    placeholder="Enter your email" type="email">
+                <input id="password-input" class="block border rounded mt-4 mb-4 text-sm w-52 py-1 pl-1"
+                    placeholder="Enter your password" type="password">
+                <button id="login-button"
+                    class=" hover:bg-green-700 bg-green-600 text-white py-1 px-3 rounded">Login</button>
+            </form>
+        </div>
+
+    </section>
 </body>
+<script src="banking.js"></script>
 
 </html>
